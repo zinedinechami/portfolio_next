@@ -1,14 +1,16 @@
 import Header from "./componenets/header";
 import About from "./sections/about";
+import Projects from "./sections/projects";
 import { GeistSans } from "geist/font/sans";
 
 export default function Page() {
   return (
     <>
-      <body className="px-96 bg-gradient-to-tr from-slate-950 to-slate-900">
-        <Header />
+      <body className="w-6/12 mx-auto bg-neutral-950">
         <main className={GeistSans.className}>
+          <Header />
           <About />
+          <Projects />
           {/* <div>Projects</div>
           <div>Tech Stack</div>
           <div>Contact</div> */}
