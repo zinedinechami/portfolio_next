@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <section className="pb-96">
+      <section className="pb-32">
         <h1 className="text-2xl font-bold">Skills</h1>
         <h2 className="text-neutral-400 pb-10">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
