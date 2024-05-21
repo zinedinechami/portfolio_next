@@ -4,13 +4,13 @@ import asac from "../assets/asac.png";
 export default function ProjectCard() {
   return (
     <>
-      <article className="w-11/12 h-48  my-6 rounded-md hover:border hover:bg-neutral-900 transition-colors border-neutral-800 cursor-pointer relative">
+      <article className="w-full h-48  my-6 rounded-md hover:border hover:bg-neutral-900 transition-colors border-neutral-800 cursor-pointer relative">
         <div className="flex">
           <div className="p-4">
             <Image
               src={asac}
-              width={350}
-              height={350}
+              width={320}
+              height={320}
               quality={100}
               alt="asac"
               className="rounded border"
@@ -31,11 +31,10 @@ export default function ProjectCard() {
             />
           </svg>
           <div className="pt-4">
-            <h1 className=" font-medium pb-4">Asac </h1>
+            <h1 className=" font-medium pb-2">Asac </h1>
 
-            <p className="w-80 text-neutral-400 text-sm mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-              ipsum,
+            <p className="w-80 text-neutral-400 text-sm mb-2">
+              Front-End of an appartement reservation service
             </p>
             <div className="flex pt-2">
               <article className="text-xs p-2 bg-neutral-900 border border-neutral-800 rounded mr-2">

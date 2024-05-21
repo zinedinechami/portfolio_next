@@ -6,7 +6,7 @@ import pfp from "../assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section className="pt-12 pb-32 ">
+      <section id="about" className="pt-12 pb-32 ">
         <div className="flex pb-4 ">
           <Image
             src={pfp}

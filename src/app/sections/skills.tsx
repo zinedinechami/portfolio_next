@@ -1,12 +1,13 @@
 export default function Skills() {
   return (
     <>
-      <section className="pb-32">
+      <section id="skills" className="pb-28">
         <h1 className="text-2xl font-bold">My Favorite Technologies</h1>
         <h2 className="text-neutral-400 pb-10">
-          The things i use to build fast and good applications
+          The tech i use to build fast and performant applications, from
+          scratch.
         </h2>
-        <div className="flex mx-auto ">
+        <div className="flex mx-auto justify-between	 ">
           <ul className="mr-14">
             <li className="text-xl font-medium pb-2">Front-End</li>
 
