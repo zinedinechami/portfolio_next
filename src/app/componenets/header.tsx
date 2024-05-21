@@ -1,26 +1,26 @@
 export default function Header() {
   return (
     <>
-      <nav className="h-20  mt-10 relative">
+      <nav className="h-20  mt-8 relative">
         <ul className="flex  text-sm text-neutral-400 ">
           <a href="">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded ">
-              About
+            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium ">
+              about
             </li>
           </a>
           <a href="">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded">
-              Projects
+            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+              projects
             </li>
           </a>
           <a href="">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded ">
-              Skills
+            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+              skills
             </li>
           </a>
           <a href="">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded">
-              Contact
+            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+              contact
             </li>
           </a>
         </ul>

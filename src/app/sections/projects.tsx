@@ -5,9 +5,7 @@ export default function Projects() {
     <>
       <section className="pb-20">
         <h1 className="text-2xl font-bold text-neutral-200">My Projects</h1>
-        <h2 className=" text-neutral-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-        </h2>
+        <h2 className=" text-neutral-400">All my side projects are here </h2>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />

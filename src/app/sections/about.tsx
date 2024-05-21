@@ -6,7 +6,7 @@ import pfp from "../assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section className="pt-16 pb-32 ">
+      <section className="pt-12 pb-32 ">
         <div className="flex pb-4 ">
           <Image
             src={pfp}
@@ -20,17 +20,17 @@ export default function About() {
             <h1 className="text-3xl font-bold text-neutral-200 ">
               Zinedine Chami
             </h1>
-            <h2 className="text-xl  text-neutral-300 font-medium  ">
+            <h2 className="text-xl  text-neutral-300 font-medium italic  ">
               Web Developer
             </h2>
           </div>
         </div>
-        <p className="text-neutral-400 w-10/12  ">
+        <p className="text-neutral-400   ">
           Hi there, originating from London and currently living in France,
           I&apos;m a 20 y/o student in full-stack development who likes to build
           for the web with a design oriented approach.
         </p>
-        <div className="pt-5 flex">
+        <div className="pt-4 flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
