@@ -1,8 +1,8 @@
 export default function Contact() {
   return (
     <>
-      <section id="contact" className="pb-28">
-        <h1 className="text-2xl font-semibold">Contact Me</h1>
+      <section id="contact" className="pb-44">
+        <h1 className="text-2xl font-bold">Contact Me</h1>
         <h2 className="text-neutral-400">
           Find me on my social networks or send me an email.
         </h2>

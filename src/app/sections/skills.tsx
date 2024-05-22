@@ -1,8 +1,8 @@
 export default function Skills() {
   return (
     <>
-      <section id="skills" className="pb-28">
-        <h1 className="text-2xl font-bold">My Favorite Technologies</h1>
+      <section id="skills" className="pb-36">
+        <h1 className="text-2xl font-bold">My Favorite Tech</h1>
         <h2 className="text-neutral-400 pb-10">
           The tech i use to build fast and performant applications, from
           scratch.

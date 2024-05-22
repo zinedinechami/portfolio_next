@@ -4,22 +4,22 @@ export default function Header() {
       <nav className="h-20  mt-6 relative">
         <ul className="flex  text-sm text-neutral-400 ">
           <a href="#about">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium ">
+            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium ">
               about
             </li>
           </a>
           <a href="#projects">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
               projects
             </li>
           </a>
           <a href="#skills">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
               skills
             </li>
           </a>
           <a href="#contact">
-            <li className="mr-4 p-2 hover:border hover:bg-neutral-900 border-neutral-800 hover:text-neutral-200 transition-colors rounded font-medium">
+            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
               contact
             </li>
           </a>

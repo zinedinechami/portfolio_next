@@ -6,7 +6,7 @@ import pfp from "../assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-12 pb-32 ">
+      <section id="about" className="pt-12 pb-32 w-11/12">
         <div className="flex pb-4 ">
           <Image
             src={pfp}
@@ -45,7 +45,10 @@ export default function About() {
               d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
             />
           </svg>
-          <a className="pr-4 mr-2 flex hover:underline " href="">
+          <a
+            className="pr-4 mr-2 flex hover:underline underline-offset-3 "
+            href=""
+          >
             View my CV{" "}
           </a>{" "}
           <svg
@@ -62,7 +65,7 @@ export default function About() {
               d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
             />
           </svg>
-          <a href="" className="flex hover:underline ">
+          <a href="" className="flex hover:underline underline-offset-3 ">
             Send me an email
           </a>
         </div>
