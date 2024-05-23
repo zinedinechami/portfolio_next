@@ -1,5 +1,7 @@
 import ProjectCard from "../componenets/project_card";
 
+// todo: create map for projects
+
 export default function Projects() {
   return (
     <>
@@ -8,7 +10,9 @@ export default function Projects() {
         <h2 className=" text-neutral-400">
           All my side projects that I built and designed.{" "}
         </h2>
-        <ProjectCard />
+        <a href="projects/asac">
+          <ProjectCard />
+        </a>
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
