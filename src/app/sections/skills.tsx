@@ -21,6 +21,7 @@ export default function Skills() {
             <div className="text-neutral-400">
               <li>Next.JS</li>
               <li>PostgresSQL</li>
+              <li>Supabase</li>
             </div>
           </ul>
           <ul className="mr-14">
@@ -36,6 +37,7 @@ export default function Skills() {
               <li>Git & Github</li>
               <li>VS Code</li>
               <li>Vercel</li>
+              <li>ChatGPT</li>
             </div>
           </ul>
         </div>
