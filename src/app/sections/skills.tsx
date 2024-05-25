@@ -45,3 +45,5 @@ export default function Skills() {
     </>
   );
 }
+
+// todo: add colored logos to each skill
