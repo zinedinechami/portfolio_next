@@ -14,9 +14,9 @@ export default function About() {
             height={90}
             quality={100}
             alt="profile picture"
-            className="rounded-full border border-neutral-800 opacity-90"
+            className="rounded-full border border-neutral-800 bg-neutral-800  "
           />
-          <div className="ml-6 mt-4 ">
+          <div className="ml-5 mt-4 ">
             <h1 className="text-3xl font-bold text-neutral-200 ">
               Zinedine Chami
             </h1>
