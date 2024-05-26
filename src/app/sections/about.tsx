@@ -6,15 +6,15 @@ import pfp from "../assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-12 pb-28 w-11/12">
-        <div className="flex pb-4 ">
+      <section id="about" className="pt-10 pb-28 w-10/12">
+        <div className="flex pb-3 ">
           <Image
             src={pfp}
             width={90}
             height={90}
             quality={100}
             alt="profile picture"
-            className="rounded-full border border-neutral-800 bg-neutral-800  "
+            className="rounded-full  bg-neutral-800  "
           />
           <div className="ml-5 mt-4 ">
             <h1 className="text-3xl font-bold text-neutral-200 ">

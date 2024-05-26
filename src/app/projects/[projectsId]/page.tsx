@@ -10,7 +10,26 @@ export default function Project() {
         <main className={GeistSans.className}>
           <Header />
           <section className="pb-44">
-            <p className="text-sm text-neutral-500 mb-8">Back to portfolio</p>
+            <a href="/">
+              <p className="text-sm text-neutral-500 mb-8 flex mt-1">
+                {" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-4 mr-2 "
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
+                  />
+                </svg>
+                Back
+              </p>
+            </a>
             <h1 className="text-neutral-200 text-3xl font-semibold ">Asac</h1>
             <div className="w-full h-96 bg-neutral-800 my-6 rounded-lg">
               {/* <Image src={asac} width={500} height={500} alt="asac" /> */}
