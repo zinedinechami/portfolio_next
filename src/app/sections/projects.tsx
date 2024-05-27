@@ -1,5 +1,6 @@
 import projects_database from "../products.json";
 import Image from "next/image";
+import Link from "next/link";
 import asac from "../assets/asac.png";
 
 // todo: create map for projects
@@ -16,8 +17,8 @@ export default function Projects() {
         {projects_database.map((data) => {
           return (
             <>
-              <a href={"/projects/" + data.id}>
-                <article className="w-full h-48  my-8 rounded-lg border bg-neutral-900/40 hover:bg-neutral-900/80  transition-colors border-neutral-900 cursor-pointer relative">
+              <Link href={"/projects/" + data.id}>
+                <article className="w-full h-48  my-8 rounded-lg  bg-neutral-900 hover:bg-neutral-900/70 border border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
                     <div className="pt-6 mx-6 ">
                       <Image
@@ -47,18 +48,14 @@ export default function Projects() {
                     <div className="pt-6">
                       <h1 className=" font-medium pb-2">{data.title} </h1>
 
-                      <p className="w-80 text-neutral-400 text-sm mb-2">
+                      <p className="w-72 text-neutral-400 text-sm mb-2">
                         {data.description}
                       </p>
-                      <div className="flex pt-2">
-                        <article className="text-xs p-2 bg-neutral-900 border border-neutral-800 rounded mr-2">
-                          {data.tags}
-                        </article>
-                      </div>
+                      <div className="flex pt-2"></div>
                     </div>
                   </div>
                 </article>
-              </a>
+              </Link>
             </>
           );
         })}
