@@ -8,26 +8,28 @@ import asac from "../assets/asac.png";
 export default function Projects() {
   return (
     <>
-      <section id="projects" className="pb-28">
-        <h1 className="text-2xl font-bold text-neutral-200">My Projects</h1>
+      <section id="projects" className="pb-24">
+        <h1 className="text-2xl font-bold text-neutral-200 pb-1">
+          My Projects
+        </h1>
         <h2 className=" text-neutral-400">
-          All my side projects that I built and designed.{" "}
+          All the apps and work that I built and designed.{" "}
         </h2>
 
         {projects_database.map((data) => {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full h-48  my-8 rounded-lg  bg-neutral-900 hover:bg-neutral-900/70 border border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full   my-8 rounded-lg  bg-neutral-900 hover:bg-neutral-900/70 border border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
-                    <div className="pt-6 mx-6 ">
+                    <div className="pt-5 mx-6 pb-5">
                       <Image
                         src={asac}
-                        width={300}
+                        width={320}
                         height={320}
                         quality={100}
                         alt={data.title}
-                        className="rounded-lg border "
+                        className="rounded-lg "
                       />
                     </div>
                     <svg

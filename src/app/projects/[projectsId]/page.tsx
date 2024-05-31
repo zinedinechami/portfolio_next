@@ -33,9 +33,8 @@ export default function Page({ params }: { params: { projectsId: string } }) {
         <main className={GeistSans.className}>
           <Header />
           <section className="pb-44">
-            <a href="/">
-              <p>{data?.id}</p>
-              <p className="text-sm text-neutral-500 mb-8 flex mt-1">
+            <a href="/#projects">
+              <p className="text-sm text-neutral-400 mb-8 flex mt-1">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -51,11 +50,13 @@ export default function Page({ params }: { params: { projectsId: string } }) {
                     d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"
                   />
                 </svg>
-                Back
+                back
               </p>
             </a>
 
-            <h1 className="text-neutral-200 text-3xl font-semibold ">Asac</h1>
+            <h1 className="text-neutral-200 text-3xl font-bold ">
+              {data?.title}
+            </h1>
             <div className="w-full h-96 bg-neutral-800 my-6 rounded-lg">
               {/* <Image src={asac} width={500} height={500} alt="asac" /> */}
             </div>
@@ -95,7 +96,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
                 />
               </svg>
               <a href="" className="flex hover:underline underline-offset-3 ">
-                Github Repo
+                Code Repo
               </a>
             </div>
             <p className="text-neutral-400">
