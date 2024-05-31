@@ -1,42 +1,42 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "title": "Software Engineer",
     "description": "An experienced software engineer specializing in full-stack development and cloud computing.",
     "tags": ["full-stack", "cloud", "software engineering"],
-    "img": "https://example.com/images/alice.jpg",
-    "blog_post": "https://example.com/blog/alice"
+    "img": "Image of Alice",
+    "blog_post": "Blog post by Alice"
   },
   {
-    "id": 2,
+    "id": "2",
     "title": "Data Scientist",
     "description": "A data scientist with a strong background in machine learning and statistical analysis.",
     "tags": ["machine learning", "data science", "statistics"],
-    "img": "https://example.com/images/bob.jpg",
-    "blog_post": "https://example.com/blog/bob"
+    "img": "Image of Bob",
+    "blog_post": "Blog post by Bob"
   },
   {
-    "id": 3,
+    "id": "3",
     "title": "Product Manager",
     "description": "A skilled product manager with expertise in agile methodologies and product lifecycle management.",
     "tags": ["product management", "agile", "lifecycle"],
-    "img": "https://example.com/images/carol.jpg",
-    "blog_post": "https://example.com/blog/carol"
+    "img": "Image of Carol",
+    "blog_post": "Blog post by Carol"
   },
   {
-    "id": 4,
+    "id": "4",
     "title": "UX Designer",
     "description": "A creative UX designer focused on creating user-friendly interfaces and improving user experience.",
     "tags": ["UX", "design", "user experience"],
-    "img": "https://example.com/images/david.jpg",
-    "blog_post": "https://example.com/blog/david"
+    "img": "Image of David",
+    "blog_post": "Blog post by David"
   },
   {
-    "id": 5,
+    "id": "5",
     "title": "Marketing Specialist",
     "description": "A marketing specialist with a talent for digital marketing strategies and social media campaigns.",
     "tags": ["marketing", "digital strategies", "social media"],
-    "img": "https://example.com/images/eve.jpg",
-    "blog_post": "https://example.com/blog/eve"
+    "img": "Image of Eve",
+    "blog_post": "Blog post by Eve"
   }
 ]

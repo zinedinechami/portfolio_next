@@ -1,4 +1,4 @@
-import projects_database from "../products.json";
+import projects_database from "../projects_database.json";
 import Image from "next/image";
 import Link from "next/link";
 import asac from "../assets/asac.png";
@@ -27,7 +27,7 @@ export default function Projects() {
                         height={320}
                         quality={100}
                         alt={data.title}
-                        className="rounded-lg border"
+                        className="rounded-lg border "
                       />
                     </div>
                     <svg

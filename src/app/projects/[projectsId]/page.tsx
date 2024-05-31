@@ -1,9 +1,32 @@
+"use client";
+
 import { GeistSans } from "geist/font/sans";
 import Image from "next/image";
 import Header from "@/app/componenets/header";
-// import asac from ".../assets/asac.png";
+import projects_database from "../../projects_database.json";
+import { useEffect, useState } from "react";
 
-export default function Project() {
+type Project = {
+  id: string;
+  title: string;
+  description: string;
+  tags: string[];
+  img: string;
+  blog_post: string;
+};
+
+export default function Page({ params }: { params: { projectsId: string } }) {
+  const id = params.projectsId;
+  const [data, setData] = useState<Project | null>(null);
+
+  console.log(id);
+
+  useEffect(() => {
+    setData(projects_database.find((findObject) => findObject.id === id));
+  }, [id]);
+
+  console.log(data);
+
   return (
     <>
       <body className="w-6/12 pl-10 mx-auto bg-neutral-950 ">
@@ -11,6 +34,7 @@ export default function Project() {
           <Header />
           <section className="pb-44">
             <a href="/">
+              <p>{data?.id}</p>
               <p className="text-sm text-neutral-500 mb-8 flex mt-1">
                 {" "}
                 <svg
@@ -30,6 +54,7 @@ export default function Project() {
                 Back
               </p>
             </a>
+
             <h1 className="text-neutral-200 text-3xl font-semibold ">Asac</h1>
             <div className="w-full h-96 bg-neutral-800 my-6 rounded-lg">
               {/* <Image src={asac} width={500} height={500} alt="asac" /> */}
