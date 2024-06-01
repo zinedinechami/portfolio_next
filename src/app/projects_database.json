@@ -1,42 +1,23 @@
 [
   {
     "id": "1",
-    "title": "Software Engineer",
-    "description": "An experienced software engineer specializing in full-stack development and cloud computing.",
-    "tags": ["full-stack", "cloud", "software engineering"],
-    "img": "Image of Alice",
-    "blog_post": "Blog post by Alice"
+    "title": "Asac",
+    "description": "Home rental web application in React, Typescript and Tailwind CSS",
+    "img": "/assets/asac.png",
+    "blog_post": "I created a rental website inspired by Airbnb, showcasing my skills in front-end design and development. Utilizing modern technologies, I designed an intuitive and aesthetically pleasing user interface where dynamic information retrieval for listings occurs in real-time on both the homepage and individual property pages. To enhance user experience, I incorporated an advanced search feature, allowing users to quickly and easily find their ideal rental. Additionally, by leveraging React Router, I developed a single-page application (SPA), ensuring smooth and fast navigation between different sections of the site. This project perfectly demonstrates my expertise in modern web development, combining efficiency, responsiveness, and elegant design."
   },
   {
     "id": "2",
-    "title": "Data Scientist",
+    "title": "Sophie Buel Architecte",
     "description": "A data scientist with a strong background in machine learning and statistical analysis.",
-    "tags": ["machine learning", "data science", "statistics"],
-    "img": "Image of Bob",
+    "img": "/assets/sophie_buel.png",
     "blog_post": "Blog post by Bob"
   },
   {
     "id": "3",
-    "title": "Product Manager",
+    "title": "Argent Bank",
     "description": "A skilled product manager with expertise in agile methodologies and product lifecycle management.",
-    "tags": ["product management", "agile", "lifecycle"],
-    "img": "Image of Carol",
+    "img": "/assets/argent_bank.png",
     "blog_post": "Blog post by Carol"
-  },
-  {
-    "id": "4",
-    "title": "UX Designer",
-    "description": "A creative UX designer focused on creating user-friendly interfaces and improving user experience.",
-    "tags": ["UX", "design", "user experience"],
-    "img": "Image of David",
-    "blog_post": "Blog post by David"
-  },
-  {
-    "id": "5",
-    "title": "Marketing Specialist",
-    "description": "A marketing specialist with a talent for digital marketing strategies and social media campaigns.",
-    "tags": ["marketing", "digital strategies", "social media"],
-    "img": "Image of Eve",
-    "blog_post": "Blog post by Eve"
   }
 ]

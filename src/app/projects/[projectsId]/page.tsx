@@ -6,6 +6,8 @@ import Header from "@/app/componenets/header";
 import projects_database from "../../projects_database.json";
 import { useEffect, useState } from "react";
 
+// todo: fix argument type error
+
 type Project = {
   id: string;
   title: string;
@@ -57,10 +59,16 @@ export default function Page({ params }: { params: { projectsId: string } }) {
             <h1 className="text-neutral-200 text-3xl font-bold ">
               {data?.title}
             </h1>
-            <div className="w-full h-96 bg-neutral-800 my-6 rounded-lg">
-              {/* <Image src={asac} width={500} height={500} alt="asac" /> */}
+            <div className="w-full h-80 bg-neutral-800 my-6 rounded-lg">
+              <Image
+                src={data?.img}
+                width={1200}
+                height={1000}
+                alt="asac"
+                className="rounded-lg"
+              />
             </div>
-            <div className="pt-2 flex pb-6">
+            <div className="pt-6 flex pb-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -99,12 +107,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
                 Code Repo
               </a>
             </div>
-            <p className="text-neutral-400">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              voluptates sunt, perferendis unde rerum quam laudantium aliquam
-              impedit consequuntur sint, voluptatibus soluta similique
-              perspiciatis, facere amet necessitatibus sit eveniet. Architecto?
-            </p>
+            <p className="text-neutral-400">{data?.blog_post}</p>
           </section>
         </main>
       </body>

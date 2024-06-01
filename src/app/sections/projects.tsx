@@ -22,7 +22,7 @@ export default function Projects() {
                   <div className="flex">
                     <div className="pt-5 mx-6 pb-5 ">
                       <Image
-                        src={asac}
+                        src={data.img}
                         width={320}
                         height={320}
                         quality={100}
