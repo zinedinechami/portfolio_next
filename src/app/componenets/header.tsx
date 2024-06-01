@@ -24,7 +24,7 @@ export default function Header() {
             </li>
           </a>
         </ul>
-        <div className="flex  text-neutral-400 absolute right-2 top-1">
+        <div className="sm:flex hidden  text-neutral-400 absolute right-2 top-1">
           <a href="https://github.com/zinedinechami">
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import asac from "../assets/asac.png";
 
-// todo: create map for projects
-
 export default function Projects() {
   return (
     <>
@@ -20,9 +18,9 @@ export default function Projects() {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full   my-8 rounded-lg  bg-neutral-900 hover:bg-neutral-900/70 border border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full h-50  my-8 rounded-lg  bg-neutral-900 hover:bg-neutral-900/70 border border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
-                    <div className="pt-5 mx-6 pb-5">
+                    <div className="pt-5 mx-6 pb-5 ">
                       <Image
                         src={asac}
                         width={320}
@@ -38,7 +36,7 @@ export default function Projects() {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-4 h-6 mr-2 absolute right-4 bottom-4"
+                      className="w-4 h-6 mr-2 absolute right-4 bottom-4 sm:flex hidden"
                     >
                       <path
                         strokeLinecap="round"
@@ -50,7 +48,7 @@ export default function Projects() {
                     <div className="pt-6">
                       <h1 className=" font-medium pb-2">{data.title} </h1>
 
-                      <p className="w-72 text-neutral-400 text-sm mb-2">
+                      <p className="sm:w-72 w-44  text-neutral-400 sm:text-sm text-xs mb-2">
                         {data.description}
                       </p>
                       <div className="flex pt-2"></div>
