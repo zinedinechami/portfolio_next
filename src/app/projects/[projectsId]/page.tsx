@@ -29,7 +29,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
 
   return (
     <>
-      <body className="w-6/12 pl-10 mx-auto bg-neutral-950 ">
+      <body className="lg:w-6/12 md:w-8/12 w-11/12 sm:pl-10 mx-auto bg-neutral-950 ">
         <main className={GeistSans.className}>
           <Header />
           <section className="pb-44">
