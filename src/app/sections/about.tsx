@@ -47,7 +47,8 @@ export default function About() {
           </svg>
           <a
             className="pr-4 mr-2 flex hover:underline underline-offset-3 "
-            href=""
+            href="/assets/CV_Dev.pdf"
+            target="_blank"
           >
             View my CV{" "}
           </a>{" "}
@@ -65,7 +66,10 @@ export default function About() {
               d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
             />
           </svg>
-          <a href="" className="flex hover:underline underline-offset-3 ">
+          <a
+            href="mailto:zinedine.chami@gmail.com"
+            className="flex hover:underline underline-offset-3 "
+          >
             Send me an email
           </a>
         </div>
