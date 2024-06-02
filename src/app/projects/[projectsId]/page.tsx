@@ -5,18 +5,20 @@ import Image from "next/image";
 import Header from "@/app/componenets/header";
 import projects_database from "../../projects_database.json";
 import { useEffect, useState } from "react";
-import Link from "next/link";
 
 type Project = {
   id: string;
   title: string;
   description: string;
-
   img: string;
   blog_post: string;
 };
 
-export default function Page({ params }: { params: { projectsId: string } }) {
+export default function ProjectPage({
+  params,
+}: {
+  params: { projectsId: string };
+}) {
   const id = params.projectsId;
   const [data, setData] = useState<Project | null>(null);
 
