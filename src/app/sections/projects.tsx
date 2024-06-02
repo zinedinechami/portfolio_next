@@ -6,19 +6,19 @@ import asac from "../assets/asac.png";
 export default function Projects() {
   return (
     <>
-      <section id="projects" className="pb-24">
+      <section id="projects" className="pb-20">
         <h1 className="text-xl font-semibold text-neutral-200 mb-1">
           Pinned Projects
         </h1>
         <h2 className=" text-neutral-400 mb-6 text-sm">
-          All the apps and work that I built and designed.{" "}
+          The apps and work that I built and designed.{" "}
         </h2>
 
         {projects_database.map((data) => {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full h-50  mb-6 rounded-md   hover:bg-neutral-900  border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full h-50  mb-6 rounded-md    hover:bg-neutral-900/70 bg-neutral-900  border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
                     <div className="pt-5 mx-6 pb-5 ">
                       <Image
@@ -30,7 +30,7 @@ export default function Projects() {
                         className="rounded-md opacity-90 object-fill w-80"
                       />
                     </div>
-                    {/* <svg
+                    <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
@@ -43,7 +43,7 @@ export default function Projects() {
                         strokeLinejoin="round"
                         d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                       />
-                    </svg> */}
+                    </svg>
 
                     <div className="pt-6">
                       <h1 className=" font-medium pb-1 ">{data.title} </h1>

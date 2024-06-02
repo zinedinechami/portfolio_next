@@ -11,7 +11,7 @@ export default function Skills() {
         </h2>
         <div className="flex sm:flex-row flex-wrap w-full mx-auto justify-between	 ">
           <ul className="mr-14">
-            <li className="text-xl font-medium pb-3 lg:pt-0 pt-6">Front-End</li>
+            <li className="text-lg font-medium pb-3 lg:pt-0 pt-6">Front-End</li>
 
             <div className="text-neutral-400">
               <li className="flex pb-1">
@@ -45,7 +45,7 @@ export default function Skills() {
             </div>
           </ul>
           <ul className="mr-14">
-            <li className="text-xl font-medium pb-3 lg:pt-0 pt-6">Back-End</li>
+            <li className="text-lg font-medium pb-3 lg:pt-0 pt-6">Back-End</li>
             <div className="text-neutral-400">
               <li className="flex pb-1">
                 <svg
@@ -80,7 +80,7 @@ export default function Skills() {
             </div>
           </ul>
           <ul className="mr-14">
-            <li className="text-xl font-medium pb-3 lg:pt-0 pt-6">Design</li>
+            <li className="text-lg font-medium pb-3 lg:pt-0 pt-6">Design</li>
             <div className="text-neutral-400">
               <li className="flex pb-1">
                 <svg
@@ -106,7 +106,7 @@ export default function Skills() {
             </div>
           </ul>
           <ul className="mr-14">
-            <li className="text-xl font-medium pb-3 lg:pt-0 pt-6">Tools</li>
+            <li className="text-lg font-medium pb-3 lg:pt-0 pt-6">Tools</li>
             <div className="text-neutral-400">
               <li className="flex pb-1">
                 {" "}
