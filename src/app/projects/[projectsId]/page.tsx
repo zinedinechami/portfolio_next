@@ -99,7 +99,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
               </a>
             </div>
             {data && (
-              <div className="w-full h-80 bg-neutral-800 my-6 rounded-lg">
+              <div className="w-full  my-6 rounded-lg">
                 <Image
                   src={data?.img}
                   width={1200}

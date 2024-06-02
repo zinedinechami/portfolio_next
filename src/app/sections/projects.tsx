@@ -48,7 +48,7 @@ export default function Projects() {
                     <div className="pt-6">
                       <h1 className=" font-medium pb-1 ">{data.title} </h1>
 
-                      <p className="sm:w-72 w-44  text-neutral-400 sm:text-sm text-xs mb-2">
+                      <p className="sm:w-72 w-40  text-neutral-400 sm:text-sm text-xs mb-2">
                         {data.description}
                       </p>
                       <div className="flex pt-2"></div>

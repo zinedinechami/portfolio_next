@@ -10,7 +10,7 @@ import { GeistSans } from "geist/font/sans";
 export default function Page() {
   return (
     <>
-      <body className="lg:w-6/12 md:w-8/12 w-11/12 sm:pl-10 mx-auto bg-neutral-950">
+      <body className="xl:w-6/12 lg:w-9/12 w-11/12 sm:pl-10 mx-auto bg-neutral-950">
         <main className={GeistSans.className}>
           <Header />
           <About />
