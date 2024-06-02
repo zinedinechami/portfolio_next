@@ -14,11 +14,7 @@ type Project = {
   blog_post: string;
 };
 
-export default function ProjectPage({
-  params,
-}: {
-  params: { projectsId: string };
-}) {
+export default function Page({ params }: { params: { projectsId: string } }) {
   const id = params.projectsId;
   const [data, setData] = useState<Project | null>(null);
 
