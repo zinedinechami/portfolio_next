@@ -1,30 +1,30 @@
 export default function Header() {
   return (
     <>
-      <nav className="h-20  mt-6 relative">
-        <ul className="flex  text-sm text-neutral-400 ">
+      <nav className="h-20  mt-7 relative">
+        <ul className="flex  text-sm text-neutral-400 sm:ml-40 font-medium">
           <a href="/#about">
-            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium ">
-              about
+            <li className="mr-8 p-2  hover:text-neutral-200 hover:bg-neutral-900 transition-colors rounded  ">
+              About
             </li>
           </a>
           <a href="/#projects">
-            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
-              projects
+            <li className="mr-8 p-2  hover:text-neutral-200 hover:bg-neutral-900  transition-colors rounded ">
+              Projects
             </li>
           </a>
           <a href="/#skills">
-            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
-              skills
+            <li className="mr-8 p-2  hover:text-neutral-200 hover:bg-neutral-900 transition-colors rounded ">
+              Skills
             </li>
           </a>
           <a href="/#contact">
-            <li className="mr-4 p-2  hover:text-neutral-200 transition-colors rounded font-medium">
-              contact
+            <li className="mr-6 p-2  hover:text-neutral-200 hover:bg-neutral-900 transition-colors rounded ">
+              Contact
             </li>
           </a>
         </ul>
-        <div className="sm:flex hidden  text-neutral-400 absolute right-2 top-1">
+        <div className="hidden  text-neutral-400 absolute right-2 top-1">
           <a href="https://github.com/zinedinechami">
             <svg
               xmlns="http://www.w3.org/2000/svg"
