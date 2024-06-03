@@ -6,7 +6,7 @@ export default function Contact() {
         <h2 className="text-neutral-400">
           Find me on my social networks or send me an email.
         </h2>
-        <div className="flex  text-neutral-200 pt-10 ">
+        <div className="flex flex-wrap text-neutral-200 pt-10 ">
           <a href="https://github.com/zinedinechami">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ export default function Contact() {
               <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
             </svg>
           </a>
-          <div className="flex pl-4">
+          <div className="flex sm:pl-4 sm:mt-0 mt-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -59,7 +59,7 @@ export default function Contact() {
               />
             </svg>
             <a
-              className="pr-4 mr-2 flex hover:underline "
+              className="pr-4 mr-2 flex hover:underline  "
               href="mailto:zinedine.chami@gmail.com"
             >
               zinedine.chami@gmail.com{" "}

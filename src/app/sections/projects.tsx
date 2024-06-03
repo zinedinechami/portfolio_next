@@ -18,9 +18,9 @@ export default function Projects() {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full h-50  mb-6 rounded-md    hover:bg-neutral-900/70 bg-neutral-900  border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full sm:h-50  mb-6 rounded-md    hover:bg-neutral-900/70 bg-neutral-900  border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
-                    <div className="pt-5 mx-6 pb-5 ">
+                    <div className="pt-5 mx-6 pb-5 sm:flex hidden">
                       <Image
                         src={data.img}
                         width={320}
@@ -45,10 +45,10 @@ export default function Projects() {
                       />
                     </svg>
 
-                    <div className="pt-6">
+                    <div className="sm:pt-6 pt-4 ml-10 sm:ml-0">
                       <h1 className=" font-medium pb-1 ">{data.title} </h1>
 
-                      <p className="sm:w-72 w-40  text-neutral-400 sm:text-sm text-xs mb-2">
+                      <p className="sm:w-72 w-full  text-neutral-400 sm:text-sm text-xs mb-2">
                         {data.description}
                       </p>
                       <div className="flex pt-2"></div>
