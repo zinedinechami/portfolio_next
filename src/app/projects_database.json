@@ -2,22 +2,22 @@
   {
     "id": "1",
     "title": "Asac",
-    "description": "Home rental web application in React, Typescript and Tailwind CSS",
+    "description": "Front-end of a vaction rental web application built in Typescript, React and Tailwind",
     "img": "/assets/asac.png",
     "blog_post": "I created a rental website inspired by Airbnb, showcasing my skills in front-end design and development. Utilizing modern technologies, I designed an intuitive and aesthetically pleasing user interface where dynamic information retrieval for listings occurs in real-time on both the homepage and individual property pages. To enhance user experience, I incorporated an advanced search feature, allowing users to quickly and easily find their ideal rental. Additionally, by leveraging React Router, I developed a single-page application (SPA), ensuring smooth and fast navigation between different sections of the site. This project perfectly demonstrates my expertise in modern web development, combining efficiency, responsiveness, and elegant design."
   },
   {
     "id": "2",
-    "title": "Sophie Buel Architecte",
-    "description": "A data scientist with a strong background in machine learning and statistical analysis.",
-    "img": "/assets/sophie_buel.png",
+    "title": "Rénov à 9",
+    "description": "Landing Page for renovation service, built in Typescript, React, Next.JS and Tailwind ",
+    "img": "/assets/renov.png",
     "blog_post": "Blog post by Bob"
   },
   {
     "id": "3",
-    "title": "Argent Bank",
-    "description": "A skilled product manager with expertise in agile methodologies and product lifecycle management.",
-    "img": "/assets/argent_bank.png",
+    "title": "Sophie Buel",
+    "description": "CRUD Application for Architecte, built in Javascript, HTML and SASS",
+    "img": "/assets/sophie_buel.png",
     "blog_post": "Blog post by Carol"
   }
 ]

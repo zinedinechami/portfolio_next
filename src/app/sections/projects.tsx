@@ -27,7 +27,7 @@ export default function Projects() {
                         height={350}
                         quality={100}
                         alt={data.title}
-                        className="rounded-md opacity-90 object-fill w-80"
+                        className="rounded-md  object-fill w-80"
                       />
                     </div>
                     <svg
