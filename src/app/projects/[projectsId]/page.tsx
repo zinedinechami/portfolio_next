@@ -11,6 +11,8 @@ type Project = {
   title: string;
   description: string;
   img: string;
+  github: string;
+  live_demo: string;
   blog_post: string;
 };
 
@@ -76,7 +78,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
               </svg>
               <a
                 className="pr-4 mr-2 flex hover:underline underline-offset-3 "
-                href=""
+                href={data?.live_demo}
               >
                 Live Demo{" "}
               </a>{" "}
@@ -94,7 +96,10 @@ export default function Page({ params }: { params: { projectsId: string } }) {
                   d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                 />
               </svg>
-              <a href="" className="flex hover:underline underline-offset-3 ">
+              <a
+                href={data?.github}
+                className="flex hover:underline underline-offset-3 "
+              >
                 Code Repo
               </a>
             </div>
