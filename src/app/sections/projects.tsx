@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import asac from "../assets/asac.png";
 
+// add image load blur
+
 export default function Projects() {
   return (
     <>
@@ -18,16 +20,16 @@ export default function Projects() {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full sm:h-50  mb-6 rounded-md    hover:bg-neutral-900/70 bg-neutral-900  border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full   mb-6 rounded-lg border  hover:bg-neutral-900/50 bg-neutral-900/80  border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
-                    <div className="pt-5 mx-6 pb-5 sm:flex hidden">
+                    <div className="pt-2 pb-2 ml-2 mr-4 sm:flex hidden">
                       <Image
                         src={data.img}
                         width={320}
                         height={350}
                         quality={100}
                         alt={data.title}
-                        className="rounded-md  object-fill w-80"
+                        className="rounded-lg  object-fill w-80 border border-neutral-800"
                       />
                     </div>
                     <svg
@@ -45,8 +47,8 @@ export default function Projects() {
                       />
                     </svg>
 
-                    <div className="sm:pt-6 pt-4 ml-10 sm:ml-0">
-                      <h1 className=" font-medium pb-1 ">{data.title} </h1>
+                    <div className="pt-4 ml-10 sm:ml-0">
+                      <h1 className=" font-medium text-lg  ">{data.title} </h1>
 
                       <p className="sm:w-72 w-full  text-neutral-400 sm:text-sm text-xs mb-2">
                         {data.description}
