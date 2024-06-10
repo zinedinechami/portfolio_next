@@ -1,20 +1,20 @@
 export default function Header() {
   return (
     <>
-      <nav className="h-20  mt-10 relative">
+      <nav className="h-20  mt-8 relative">
         <ul className="flex  text-sm text-neutral-400   ">
           <a href="/#about">
-            <li className="xl:mr-8    hover:text-neutral-200  transition-colors rounded-md  ">
+            <li className="xl:mr-9    hover:text-neutral-200  transition-colors rounded-md  ">
               About
             </li>
           </a>
           <a href="/#projects">
-            <li className="xl:mr-8 hover:text-neutral-200   transition-colors rounded-md ">
+            <li className="xl:mr-9 hover:text-neutral-200   transition-colors rounded-md ">
               Projects
             </li>
           </a>
           <a href="/#skills">
-            <li className="xl:mr-8   hover:text-neutral-200  transition-colors rounded-md ">
+            <li className="xl:mr-9   hover:text-neutral-200  transition-colors rounded-md ">
               Skills
             </li>
           </a>

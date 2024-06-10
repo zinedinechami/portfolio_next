@@ -8,7 +8,7 @@ import pfp from "../../../public/assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-4 pb-20 sm:w-8/12 ">
+      <section id="about" className="pt-2 pb-20 sm:w-8/12 ">
         <div className="flex pb-3 ">
           {/* <Image
             src={pfp}
@@ -34,7 +34,7 @@ export default function About() {
         </p>
         <div className="pt-6 flex text-sm">
           <a
-            className="pr-4 mr-2 flex  bg-neutral-900 p-1 rounded-lg border border-neutral-800 "
+            className="pr-4 mr-2 flex  bg-neutral-900 p-1 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors "
             href="/assets/CV_Dev.pdf"
             target="_blank"
           >
@@ -56,7 +56,7 @@ export default function About() {
           </a>{" "}
           <a
             href="mailto:zinedine.chami@gmail.com"
-            className="flex mr-2 bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 "
+            className="flex mr-2 bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ export default function About() {
           </a>
           <a
             href="https://github.com/zinedinechami"
-            className="flex  bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 "
+            className="flex  bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
