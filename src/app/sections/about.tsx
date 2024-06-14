@@ -8,7 +8,7 @@ import pfp from "../../../public/assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-2 pb-20 sm:w-8/12 ">
+      <section id="about" className="pt-2 pb-20 sm:w-9/12 ">
         <div className="flex pb-3 ">
           {/* <Image
             src={pfp}
@@ -20,7 +20,7 @@ export default function About() {
           /> */}
           {/* <div className="ml-4 mt-2 "> */}
           <h1 className="text-3xl mb-1 font-bold text-neutral-200 ">
-            hi, i&apos;m Zinedine
+            hi, i&apos;m Zinedine 👋🏻
           </h1>
           {/* <h2 className="text-xl  text-neutral-200 font-medium   ">
               Web Developer
@@ -52,7 +52,7 @@ export default function About() {
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
             </svg>
-            View my CV{" "}
+            View CV{" "}
           </a>{" "}
           <a
             href="mailto:zinedine.chami@gmail.com"
@@ -92,7 +92,7 @@ export default function About() {
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
             </svg>
-            Github
+            My Github
           </a>
         </div>
       </section>
