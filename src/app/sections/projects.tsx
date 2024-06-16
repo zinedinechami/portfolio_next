@@ -20,7 +20,7 @@ export default function Projects() {
           return (
             <>
               <Link href={"/projects/" + data.id}>
-                <article className="w-full   mb-6 rounded-lg border  hover:bg-neutral-900/50 bg-neutral-900/80  border-neutral-800 transition-colors  cursor-pointer relative">
+                <article className="w-full   mb-6 rounded-xl border  hover:bg-neutral-800/70 bg-neutral-900/70   border-neutral-800 transition-colors  cursor-pointer relative">
                   <div className="flex">
                     <div className="pt-2 pb-2 ml-2 mr-4 sm:flex hidden">
                       <Image
@@ -38,7 +38,7 @@ export default function Projects() {
                       viewBox="0 0 24 24"
                       strokeWidth={1.5}
                       stroke="currentColor"
-                      className="w-4 h-6 mr-2 absolute right-6 bottom-6 sm:flex hidden"
+                      className="w-4 h-6 mr-2 absolute right-4 bottom-6 sm:flex hidden"
                     >
                       <path
                         strokeLinecap="round"
@@ -48,9 +48,11 @@ export default function Projects() {
                     </svg>
 
                     <div className="pt-4 ml-10 sm:ml-0">
-                      <h1 className=" font-medium text-lg  ">{data.title} </h1>
+                      <h1 className=" font-medium text-xl mb-2 ">
+                        {data.title}{" "}
+                      </h1>
 
-                      <p className="sm:w-72 w-full  text-neutral-400 sm:text-sm text-xs mb-2">
+                      <p className="sm:w-80 w-full  text-neutral-400 sm:text-sm text-xs mb-2">
                         {data.description}
                       </p>
                       <div className="flex pt-2"></div>

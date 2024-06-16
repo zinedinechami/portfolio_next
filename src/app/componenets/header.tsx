@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <>
       <nav className="h-20  mt-8 relative">
-        <ul className="flex  text-sm text-neutral-400   ">
+        <ul className="flex  text-sm text-neutral-400 font-medium  ">
           <a href="/#about">
             <li className="mr-9    hover:text-neutral-200  transition-colors rounded-md  ">
               About

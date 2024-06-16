@@ -34,17 +34,18 @@ export default function About() {
         </p>
         <div className="pt-6 flex text-sm">
           <a
-            className="pr-4 mr-2 flex  bg-neutral-900 p-1 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors "
+            className="pl-2 mr-2 flex  bg-neutral-900/70 p-1 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors "
             href="/assets/CV_Dev.pdf"
             target="_blank"
           >
+            View CV{" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-3 h-5 mr-2 text-neutral-400"
+              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
             >
               <path
                 strokeLinecap="round"
@@ -52,19 +53,19 @@ export default function About() {
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
             </svg>
-            View CV{" "}
           </a>{" "}
           <a
             href="mailto:zinedine.chami@gmail.com"
-            className="flex mr-2 bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
+            className="flex mr-2 bg-neutral-900/70 p-1 pl-2 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
           >
+            Send me an email
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-3 h-5 mr-2 text-neutral-400"
+              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
             >
               <path
                 strokeLinecap="round"
@@ -72,19 +73,19 @@ export default function About() {
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
             </svg>
-            Send me an email
           </a>
           <a
             href="https://github.com/zinedinechami"
-            className="flex  bg-neutral-900 p-1 pr-4 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
+            className="flex  bg-neutral-900/70 p-1 pl-2 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
           >
+            My Github
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-3 h-5 mr-2 text-neutral-400"
+              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
             >
               <path
                 strokeLinecap="round"
@@ -92,7 +93,6 @@ export default function About() {
                 d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
               />
             </svg>
-            My Github
           </a>
         </div>
       </section>
