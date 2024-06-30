@@ -8,7 +8,7 @@ import pfp from "../../../public/assets/profile_picture.png";
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-2 pb-20 sm:w-9/12 ">
+      <section id="about" className="pt-24 pb-20 sm:w-11/12 ">
         <div className="flex pb-3 ">
           {/* <Image
             src={pfp}
@@ -19,7 +19,7 @@ export default function About() {
             className="rounded-full  bg-neutral-800  "
           /> */}
           {/* <div className="ml-4 mt-2 "> */}
-          <h1 className="text-3xl mb-1 font-bold text-neutral-200 ">
+          <h1 className="text-3xl mb-1 font-semibold text-neutral-200 ">
             hi, i&apos;m Zinedine 👋🏻
           </h1>
           {/* <h2 className="text-xl  text-neutral-200 font-medium   ">
@@ -33,65 +33,56 @@ export default function About() {
           with a design-oriented approach.
         </p>
         <div className="pt-6 flex text-sm">
-          <a
-            className="pl-2 mr-2 flex  bg-neutral-900/70 p-1 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors "
-            href="/assets/CV_Dev.pdf"
-            target="_blank"
-          >
-            View CV{" "}
+          <a href="mailto:zinedine.chami@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
+              className="w-5 mr-8 hover:text-neutral-400 transition-colors"
             >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
-            </svg>
-          </a>{" "}
-          <a
-            href="mailto:zinedine.chami@gmail.com"
-            className="flex mr-2 bg-neutral-900/70 p-1 pl-2 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
-          >
-            Send me an email
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
               />
             </svg>
           </a>
-          <a
-            href="https://github.com/zinedinechami"
-            className="flex  bg-neutral-900/70 p-1 pl-2 rounded-lg border border-neutral-800 hover:bg-neutral-900/50 transition-colors"
-          >
-            My Github
+          <a href="https://github.com/zinedinechami">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-3 h-5 ml-1 mr-1 text-neutral-400"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="mr-8 hover:text-neutral-400 transition-colors"
+              viewBox="0 0 16 16"
             >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
-              />
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/zinedinechami/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="mr-8 hover:text-neutral-400 transition-colors"
+              viewBox="0 0 16 16"
+            >
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg>
+          </a>
+          <a href="https://x.com/zinedinechami">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="currentColor"
+              className="mr-4 hover:text-neutral-400 transition-colors"
+              viewBox="0 0 16 16"
+            >
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
             </svg>
           </a>
         </div>

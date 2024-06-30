@@ -10,11 +10,11 @@ export default function Page() {
     <>
       <body className="xl:w-6/12 lg:w-9/12 w-11/12 sm:pl-10 mx-auto bg-neutral-950 ">
         <main className={GeistSans.className}>
-          <Header />
           <About />
           <Projects />
-          <Skills />
-          <Contact />
+          <div className="mb-20 mt-10 text-sm text-neutral-400">
+            Portfolio built in NextJS, React & Tailwind :)
+          </div>
         </main>
       </body>
     </>

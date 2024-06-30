@@ -34,9 +34,8 @@ export default function Page({ params }: { params: { projectsId: string } }) {
     <>
       <body className="lg:w-6/12 md:w-8/12 w-11/12 sm:pl-10 mx-auto bg-neutral-950 ">
         <main className={GeistSans.className}>
-          <Header />
-          <section className="pb-44">
-            <a href="/#projects">
+          <section className="pb-44 pt-24">
+            <a href="/">
               <p className="text-sm text-neutral-400 mb-8 flex ">
                 {" "}
                 <svg

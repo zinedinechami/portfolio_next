@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Asac",
-    "description": "Front-end of a vaction rental web application built in Typescript, React and Tailwind",
+    "description": "Front-end of a appartement rental website built in Typescript, React and Tailwind",
     "img": "/assets/asac.png",
     "github": "https://github.com/zinedinechami/asac_v1",
     "live_demo": "https://asac-rouge.vercel.app/",
