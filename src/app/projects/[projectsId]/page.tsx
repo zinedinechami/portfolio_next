@@ -2,7 +2,7 @@
 
 import { GeistSans } from "geist/font/sans";
 import Image from "next/image";
-import Header from "@/app/componenets/header";
+
 import projects_database from "../../projects_database.json";
 import { useEffect, useState } from "react";
 
