@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Asac",
-    "description": "Front-end of a appartement rental website built in Typescript, React and Tailwind",
+    "description": "Front-end of a appartement rental website built in Typescript, React and Tailwind.",
     "img": "/assets/asac.png",
     "github": "https://github.com/zinedinechami/asac_v1",
     "live_demo": "https://asac-rouge.vercel.app/",
@@ -11,7 +11,7 @@
   {
     "id": "2",
     "title": "Rénov à 9",
-    "description": "Landing Page for a home renovation service, built in Typescript, React, Next.JS and Tailwind ",
+    "description": "Landing Page for a home renovation service, built in Typescript, React, Next.JS and Tailwind.",
     "img": "/assets/renov.png",
     "github": "https://github.com/zinedinechami/renov_v1",
     "live_demo": "https://renov-a-9.com/",
@@ -20,7 +20,7 @@
   {
     "id": "3",
     "title": "Sophie Buel",
-    "description": "CRUD Application for Architecte, built in vanilla Javascript",
+    "description": "CRUD Application for Architecte, built in vanilla Javascript.",
     "img": "/assets/sophie_buel.png",
     "github": "https://github.com/zinedinechami/P6-Sophie-Buel-FrontEnd",
     "live_demo": "https://zinedinechami.github.io/P6-Sophie-Buel-FrontEnd/",

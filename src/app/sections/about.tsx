@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-24 pb-20 sm:w-11/12 ">
+      <section id="about" className="pt-28 pb-24 sm:w-11/12 w-full">
         <div className="flex pb-3 ">
           <h1 className="text-3xl mb-1 font-semibold text-neutral-200 ">
             hey, i&apos;m Zinedine 👋🏻
@@ -10,10 +10,10 @@ export default function About() {
         <p className="text-neutral-400 text-md  ">
           I&apos;m a 20 y/o student in full-stack web development. Originating
           from London and currently living in France, I enjoy building for the
-          web with a design-oriented approach. If i&apos;m not coding, I am
+          web with a design-oriented approach. If i&apos;m not coding, i&apos;m
           probably watching a movie or working out :)
         </p>
-        <div className="pt-6 flex text-sm">
+        <div className="mt-7 flex text-sm">
           <a href="mailto:zinedine.chami@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"
