@@ -6,24 +6,24 @@
     "img": "/assets/asac.png",
     "github": "https://github.com/zinedinechami/asac_v1",
     "live_demo": "https://asac-rouge.vercel.app/",
-    "blog_post": "I created a rental website inspired by Airbnb, showcasing my skills in front-end design and development. Utilizing modern technologies, I designed an intuitive and aesthetically pleasing user interface where dynamic information retrieval for listings occurs in real-time on both the homepage and individual property pages. To enhance user experience, I incorporated an advanced search feature, allowing users to quickly and easily find their ideal rental. Additionally, by leveraging React Router, I developed a single-page application (SPA), ensuring smooth and fast navigation between different sections of the site. This project perfectly demonstrates my expertise in modern web development, combining efficiency, responsiveness, and elegant design."
+    "blog_post": "I built and designed the front-end of an appartement rental website inspired by Airbnb, showcasing my skills in  implementing front-end design and development. I designed an intuitive and aesthetically pleasing user interface where dynamic information retrieval for listings occurs in real-time on both the homepage and individual property pages. To enhance user experience, I incorporated a search feature, allowing users to quickly and easily find their ideal rental. Additionally, by leveraging React Router, I developed a single-page application (SPA), ensuring smooth and fast navigation between different sections of the site."
   },
   {
     "id": "2",
     "title": "Rénov à 9",
-    "description": "Landing Page for renovation service, built in Typescript, React, Next.JS and Tailwind ",
+    "description": "Landing Page for a home renovation service, built in Typescript, React, Next.JS and Tailwind ",
     "img": "/assets/renov.png",
     "github": "https://github.com/zinedinechami/renov_v1",
     "live_demo": "https://renov-a-9.com/",
-    "blog_post": "Creating the landing page for Renov a 9 was a meticulous and rewarding process, leveraging the power of modern web development technologies such as React, Next.js, and Tailwind CSS. The choice of React allowed us to build a highly interactive and dynamic user interface, ensuring that the page is responsive and efficient. Next.js was instrumental in providing a robust framework for server-side rendering and static site generation, which significantly improved the page's performance and SEO capabilities. Tailwind CSS was utilized to craft a visually appealing and highly customizable design, enabling rapid styling directly in the component files. Together, these technologies facilitated the creation of a sleek, functional, and user-friendly landing page that effectively showcases the renovation services offered by Renov a 9."
+    "blog_post": "My first work for a client, leveraging technologies such as React, Next.js, and Tailwind CSS.  Next.js was instrumental in providing a robust framework for server-side rendering and static site generation, which significantly improved the page's performance and SEO capabilities. Tailwind CSS was utilized to craft a visually appealing and highly customizable design. These technologies facilitated the creation of a sleek, functional, and user-friendly landing page that effectively showcases the renovation services offered by Renov a 9."
   },
   {
     "id": "3",
     "title": "Sophie Buel",
-    "description": "CRUD Application for Architecte, built in Javascript, HTML and SASS",
+    "description": "CRUD Application for Architecte, built in vanilla Javascript",
     "img": "/assets/sophie_buel.png",
     "github": "https://github.com/zinedinechami/P6-Sophie-Buel-FrontEnd",
     "live_demo": "https://zinedinechami.github.io/P6-Sophie-Buel-FrontEnd/",
-    "blog_post": "I implemented the Front-End and integrated data from an internally developed API using Node.js and Express.js. I worked on making API calls and manipulating the API to set up a robust authentication system, enabling the retrieval, creation, updating, and deletion of architectural works. Additionally, I designed and integrated advanced filtering functionalities and an intuitive modal to enhance the user experience. This experience strengthened my full-stack development skills, particularly in API management and web application security."
+    "blog_post": "I implemented the Front-End and integrated data from an internally developed API using Node.js and Express.js. I worked on making API calls and manipulating the API to set up a authentication system, enabling the retrieval, creation, updating, and deletion of architectural works. Additionally, I  integrated filtering functionalities and an interactive modal to enhance the user experience. This experience strengthened my full-stack development skills, particularly in API management."
   }
 ]
