@@ -103,7 +103,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
                     width={1200}
                     height={1000}
                     alt="asac"
-                    className="rounded-xl border border-neutral-700"
+                    className="rounded-xl border border-neutral-800"
                   />
                 </div>
               </a>

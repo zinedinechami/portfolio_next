@@ -1,8 +1,6 @@
-import Header from "./componenets/header";
 import About from "./sections/about";
 import Projects from "./sections/projects";
-import Skills from "./sections/skills";
-import Contact from "./sections/contact";
+
 import { GeistSans } from "geist/font/sans";
 
 export default function Page() {
@@ -12,8 +10,8 @@ export default function Page() {
         <main className={GeistSans.className}>
           <About />
           <Projects />
-          <div className="mb-20 mt-10 text-sm text-neutral-400">
-            Portfolio built in NextJS, React & Tailwind :)
+          <div className="mb-10 mt-16 text-sm text-neutral-400">
+            Portfolio built in NextJS, React & Tailwind.
           </div>
         </main>
       </body>

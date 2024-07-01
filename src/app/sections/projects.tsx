@@ -26,7 +26,7 @@ export default function Projects() {
                         height={350}
                         quality={100}
                         alt={data.title}
-                        className="rounded-xl  object-fill w-96 border border-neutral-700"
+                        className="rounded-xl  object-fill w-96 border border-neutral-800"
                       />
                     </div>
 
