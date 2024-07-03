@@ -1,10 +1,10 @@
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-28 pb-24 sm:w-11/12 w-full">
+      <section id="about" className="pt-28 pb-28 sm:w-11/12 w-full">
         <div className="flex pb-3 ">
-          <h1 className="text-3xl mb-1 font-semibold text-neutral-200 ">
-            hey, i&apos;m Zinedine 👋🏻
+          <h1 className="text-3xl  font-medium text-neutral-50 ">
+            hi, i&apos;m Zinedine 👋🏻
           </h1>
         </div>
         <p className="text-neutral-400 text-md  ">
@@ -13,7 +13,7 @@ export default function About() {
           web with a design-oriented approach. If i&apos;m not coding, i&apos;m
           probably watching a movie or working out :)
         </p>
-        <div className="mt-7 flex text-sm">
+        <div className="mt-5 flex text-sm text-neutral-50">
           <a href="mailto:zinedine.chami@gmail.com">
             <svg
               xmlns="http://www.w3.org/2000/svg"

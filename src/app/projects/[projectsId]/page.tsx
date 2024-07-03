@@ -36,7 +36,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
         <main className={GeistSans.className}>
           <section className="pb-44 pt-20">
             <a href="/" className="">
-              <p className="text-sm text-neutral-400 mb-6 flex hover:text-neutral-200 transition-colors font-medium">
+              <p className="text-sm text-neutral-400 mb-4 flex hover:text-neutral-200 transition-colors font-medium">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +57,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
             </a>
 
             <div className="pt-6 flex pb-4 relative">
-              <h1 className="text-neutral-200 text-3xl  font-semibold ">
+              <h1 className="text-neutral-200 text-3xl  font-medium ">
                 {data?.title}
               </h1>
               <div className="	absolute right-0 flex">
