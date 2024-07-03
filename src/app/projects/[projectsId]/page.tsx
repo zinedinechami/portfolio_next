@@ -96,7 +96,7 @@ export default function Page({ params }: { params: { projectsId: string } }) {
               </div>
             </div>
             {data && (
-              <a href={data?.live_demo}>
+              <a href={data?.live_demo} className="h-96">
                 <div className="w-full  my-6 rounded-lg">
                   <Image
                     src={data?.img}

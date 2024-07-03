@@ -1,6 +1,15 @@
 [
   {
     "id": "1",
+    "title": "CoinWatch",
+    "description": "Crypto currency tracker built in Next.JS, Typescript, React and Tailwind.",
+    "img": "/assets/CoinWatch.png",
+    "github": "https://github.com/zinedinechami/crypto_next",
+    "live_demo": "",
+    "blog_post": ""
+  },
+  {
+    "id": "2",
     "title": "Asac",
     "description": "Front-end of a appartement rental website built in Typescript, React and Tailwind.",
     "img": "/assets/asac.png",
@@ -9,7 +18,7 @@
     "blog_post": "I built and designed the front-end of an appartement rental website inspired by Airbnb, showcasing my skills in  implementing front-end design and development. I designed an intuitive and aesthetically pleasing user interface where dynamic information retrieval for listings occurs in real-time on both the homepage and individual property pages. To enhance user experience, I incorporated a search feature, allowing users to quickly and easily find their ideal rental. Additionally, by leveraging React Router, I developed a single-page application (SPA), ensuring smooth and fast navigation between different sections of the site."
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Rénov à 9",
     "description": "Landing Page for a home renovation service, built in Typescript, React, Next.JS and Tailwind.",
     "img": "/assets/renov.png",
@@ -18,8 +27,8 @@
     "blog_post": "My first work for a client, leveraging technologies such as React, Next.js, and Tailwind CSS.  Next.js was instrumental in providing a robust framework for server-side rendering and static site generation, which significantly improved the page's performance and SEO capabilities. Tailwind CSS was utilized to craft a visually appealing and highly customizable design. These technologies facilitated the creation of a sleek, functional, and user-friendly landing page that effectively showcases the renovation services offered by Renov a 9."
   },
   {
-    "id": "3",
-    "title": "Sophie Buel",
+    "id": "4",
+    "title": "Architecte Portfolio",
     "description": "CRUD Application for Architecte, built in vanilla Javascript.",
     "img": "/assets/sophie_buel.png",
     "github": "https://github.com/zinedinechami/P6-Sophie-Buel-FrontEnd",
