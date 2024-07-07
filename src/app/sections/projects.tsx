@@ -9,8 +9,8 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="pb-20 ">
-        <h1 className="text-lg font-medium text-neutral-50 mb-5">
-          My Pinned Projects
+        <h1 className="text-lg font-medium text-neutral-50 mb-6">
+          My Recent Work
         </h1>
 
         <div className="flex flex-wrap ">
@@ -21,20 +21,20 @@ export default function Projects() {
                   href={"/projects/" + data.id}
                   className="w-full  sm:w-80 mr-5"
                 >
-                  <article className="w-full  sm:w-80 mb-2 rounded-lg  border border-neutral-950   hover:scale-105 transition-all hover:border-neutral-800 hover:bg-neutral-900/70    relative">
-                    <div className="flex  flex-wrap">
-                      <div className="pt-2 pb-2 ml-3 mr-3 ">
+                  <article className="w-full  sm:w-80 mb-4        transition-all hover:opacity-60    relative">
+                    <div className="flex  flex-wrap ">
+                      <div className=" mb-3">
                         <Image
                           src={data.img}
                           width={320}
                           height={350}
                           quality={100}
                           alt={data.title}
-                          className="rounded-lg object-fill w-80 h-40 border border-neutral-800"
+                          className="rounded-md object-fill w-80 h-40 border border-neutral-800"
                         />
                       </div>
 
-                      <div className=" ml-3">
+                      <div className=" ">
                         <h1 className="  text-base ">{data.title} </h1>
 
                         <p className=" w-11/12  text-neutral-400 text-sm  mb-2">

@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <section id="about" className="pt-24 pb-20 sm:w-11/12 w-full">
+      <section id="about" className="pt-24 pb-24 sm:w-11/12 w-full">
         <div className="flex pb-3 ">
           <h1 className="text-3xl  font-medium text-neutral-50 ">
             hi, i&apos;m Zinedine 👋🏻
