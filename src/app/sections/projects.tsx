@@ -8,9 +8,9 @@ import asac from "../assets/asac.png";
 export default function Projects() {
   return (
     <>
-      <section id="projects" className="pb-20 ">
+      <section id="projects" className="pb-32 ">
         <h1 className="text-lg font-medium text-neutral-50 mb-6">
-          My Recent Work
+          My Pinned Work
         </h1>
 
         <div className="flex flex-wrap ">
@@ -26,7 +26,7 @@ export default function Projects() {
                       <div className=" mb-3">
                         <Image
                           src={data.img}
-                          width={320}
+                          width={350}
                           height={350}
                           quality={100}
                           alt={data.title}
@@ -49,6 +49,26 @@ export default function Projects() {
             );
           })}
         </div>
+        <a href="https://github.com/zinedinechami">
+          <p className="text-sm flex text-neutral-400 hover:text-neutral-200 transition-colors mt-4">
+            {" "}
+            View more Projects{" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-4 ml-1"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </p>
+        </a>
       </section>
     </>
   );
