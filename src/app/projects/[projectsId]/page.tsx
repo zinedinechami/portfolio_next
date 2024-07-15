@@ -20,15 +20,11 @@ export default function Page({ params }: { params: { projectsId: string } }) {
   const id = params.projectsId;
   const [data, setData] = useState<Project | null>(null);
 
-  console.log(id);
-
   useEffect(() => {
     setData(
       projects_database.find((findObject) => findObject.id === id) || null
     );
   }, [id]);
-
-  console.log(data);
 
   return (
     <>
