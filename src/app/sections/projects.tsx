@@ -10,7 +10,7 @@ export default function Projects() {
     <>
       <section id="projects" className="pb-32 ">
         <h1 className="text-lg font-medium text-neutral-50 mb-6">
-          My Pinned Work
+          My Pinned Projects
         </h1>
 
         <div className="flex flex-wrap ">
