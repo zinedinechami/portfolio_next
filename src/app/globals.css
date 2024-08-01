@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -29,4 +31,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.new_font {
+  font-family: "Ramaraja", serif;
 }

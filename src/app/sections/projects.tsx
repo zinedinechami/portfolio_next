@@ -9,8 +9,8 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="pb-32 ">
-        <h1 className="text-lg font-medium text-neutral-50 mb-6">
-          My Pinned Projects
+        <h1 className="text-2xl  text-neutral-50 mb-5 new_font">
+          Pinned Projects
         </h1>
 
         <div className="flex flex-wrap ">
@@ -30,14 +30,14 @@ export default function Projects() {
                           height={350}
                           quality={100}
                           alt={data.title}
-                          className="rounded-md object-fill w-80 h-40 border border-neutral-800"
+                          className="rounded-xl object-cover w-80 h-40 border border-neutral-900"
                         />
                       </div>
 
                       <div className=" ">
                         <h1 className="  text-base ">{data.title} </h1>
 
-                        <p className=" w-11/12  text-neutral-400 text-sm  mb-2">
+                        <p className=" w-11/12  text-neutral-300 text-sm  mb-2">
                           {data.description}
                         </p>
                         <div className="flex pt-2"></div>
@@ -50,7 +50,7 @@ export default function Projects() {
           })}
         </div>
         <a href="https://github.com/zinedinechami">
-          <p className="text-sm flex text-neutral-400 hover:text-neutral-200 transition-colors mt-4">
+          <p className="text-sm flex text-neutral-300 hover:text-neutral-200 transition-colors mt-4">
             {" "}
             View more Projects{" "}
             <svg

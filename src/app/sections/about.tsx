@@ -1,20 +1,20 @@
 export default function About() {
   return (
     <>
-      <section id="about" className="sm:pt-28 pt-20 pb-24 sm:w-11/12 w-full">
-        <div className="flex pb-3 ">
-          <h1 className="text-3xl  font-semibold text-neutral-50 ">
-            hi, i&apos;m Zinedine 👋🏻
+      <section id="about" className="sm:pt-28 pt-20 pb-28 sm:w-11/12 w-full">
+        <div className="flex  ">
+          <h1 className="text-4xl   text-neutral-100 new_font">
+            hey, i&apos;m Zinedine
           </h1>
         </div>
-        <p className="text-neutral-400 text-md  ">
+        <p className="text-neutral-300 text-md  ">
           I&apos;m a 20 y/o student in full-stack web development. Originating
           from London and currently living in France, I enjoy building for the
           web with a design-oriented approach.
         </p>
         <div className="mt-5 flex text-sm text-neutral-50">
           <a
-            className=" mr-2 flex bg-neutral-200 py-3 px-7 text-neutral-950 rounded-full hover:bg-neutral-50 transition-colors "
+            className=" mr-2 flex bg-neutral-200 py-3 px-7 text-neutral-900  rounded-full hover:bg-neutral-50 transition-colors "
             href="mailto:zinedine.chami@gmail.com"
           >
             Contact me
