@@ -10,7 +10,7 @@ export default function Page() {
         <main className={GeistSans.className}>
           <About />
           <Projects />
-          <div className="mb-10 mt-16 text-sm text-neutral-400 hover:text-neutral-200 transition-colors">
+          <div className="mb-10 mt-16 text-sm text-neutral-300 hover:text-neutral-200 transition-colors">
             <a
               href="https://github.com/zinedinechami/portfolio_next"
               className="underline "

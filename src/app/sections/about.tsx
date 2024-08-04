@@ -1,13 +1,13 @@
 export default function About() {
   return (
     <>
-      <section id="about" className="sm:pt-28 pt-20 pb-28 sm:w-11/12 w-full">
+      <section id="about" className="sm:pt-28 pt-20 pb-28 xl:w-11/12 w-full">
         <div className="flex  ">
           <h1 className="text-4xl   text-neutral-100 new_font">
-            hey, i&apos;m Zinedine
+            hi, i&apos;m Zinedine 👋🏻
           </h1>
         </div>
-        <p className="text-neutral-300 text-md  ">
+        <p className="text-neutral-300 text-md mt-1 ">
           I&apos;m a 20 y/o student in full-stack web development. Originating
           from London and currently living in France, I enjoy building for the
           web with a design-oriented approach.

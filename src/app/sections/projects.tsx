@@ -9,11 +9,11 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="pb-32 ">
-        <h1 className="text-2xl  text-neutral-50 mb-5 new_font">
+        <h1 className="text-2xl  text-neutral-100 mb-5 new_font">
           Pinned Projects
         </h1>
 
-        <div className="flex flex-wrap ">
+        <div className="flex flex-wrap justify-between xl:w-11/12 w-full">
           {projects_database.map((data) => {
             return (
               <>
@@ -21,7 +21,7 @@ export default function Projects() {
                   href={"/projects/" + data.id}
                   className="w-full  sm:w-80 mr-5"
                 >
-                  <article className="w-full  sm:w-80 mb-4        transition-all hover:opacity-60    relative">
+                  <article className="w-full  sm:w-96 mb-4        transition-all hover:opacity-60    relative">
                     <div className="flex  flex-wrap ">
                       <div className=" mb-3">
                         <Image
@@ -30,7 +30,7 @@ export default function Projects() {
                           height={350}
                           quality={100}
                           alt={data.title}
-                          className="rounded-xl object-cover w-80 h-40 border border-neutral-900"
+                          className=" object-cover w-96 h-48 border rounded border-neutral-900"
                         />
                       </div>
 
