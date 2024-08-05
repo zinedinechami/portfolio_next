@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="pb-32 ">
-        <h1 className="text-2xl  text-neutral-100 mb-5 new_font">
+        <h1 className="text-lg font-medium text-neutral-100 mb-5 ">
           Pinned Projects
         </h1>
 
